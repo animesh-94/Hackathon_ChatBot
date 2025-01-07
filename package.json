@@ -2,9 +2,9 @@
   "name": "hack-chatbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/index.js"
   },
   "author": "",
   "license": "ISC",
