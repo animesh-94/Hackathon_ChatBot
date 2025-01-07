@@ -23,10 +23,10 @@ const genAl = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 // Middleware to parse incoming request bodies and serve static files
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "../public")));
 
 // POST route to handle file uploads and text input
-app.post("/api/get", uploads.single("file"), async (req, res) => {
+app.post("/get", uploads.single("file"), async (req, res) => {
   const userInput = req.body.msg;
   const file = req.file;
 
