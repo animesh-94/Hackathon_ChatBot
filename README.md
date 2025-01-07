@@ -23,6 +23,7 @@ Clone the repository:
 Bash
 
 git clone <repository_url>
+
 Install dependencies:
 
 This project doesn't have external dependencies, as it's built with plain JavaScript.
