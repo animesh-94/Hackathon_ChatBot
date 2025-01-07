@@ -46,7 +46,7 @@ function sendMessage() {
 
 // Function to fetch the bot's response from the server
 function fetchBotResponse(formData) {
-    fetch("../api/api/get", {
+    fetch("../get", {
         method: "POST",
         body: formData,
     })
